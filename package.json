@@ -1,5 +1,5 @@
 {
-  "name": "solution-login-and-auth",
+  "name": "reacthooks",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -24,12 +24,21 @@
     "superagent": "4.1.0",
     "superagent-mock": "3.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint **/*.js"
   },
   "browserslist": [
     ">0.2%",
